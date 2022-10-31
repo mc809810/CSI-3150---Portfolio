@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/467666e67d.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <title>Portfolio</title>
+    <!--Link an external CSS file-->
+    <link rel="stylesheet" href="../CSS/ContactMe.css" />
+  </head>
+  <body>
+    <header>
+      <nav class="navigation_bar">
+        <ul class="navigation_list">
+          <li><a href="../index.html">Home</a></li>
+          <li><a href="../Pages/AboutMe.html">About Me</a></li>
+          <li><a href="../Pages/Education.html">Education</a></li>
+          <li><a href="../Pages/Projects.html">Projects</a></li>
+          <li><a href="../Pages/Hobbies.html">Hobbies</a></li>
+          <li><a href="../Pages/Contact.html">Contact Me</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Contact Section -->
+    <h1>Contact Me</h1>
+    <div>
+      <p>
+        <i class="fa fa-map-marker fa-fw fa-2x"></i>
+        Michigan, US
+      </p>
+      <p>
+        <i class="fa fa-phone fa-fw fa-2x"></i>
+        Phone: 248-***-****
+      </p>
+      <p>
+        <i class="fa fa-envelope fa-fw fa-2x"></i>
+        Email: mayu9809@gmail.com
+      </p>
+    </div>
+
+    <form action="/action_page.php" target="_blank" method="get">
+      <p>
+        <label for="Name">Name:</label>
+        <input
+          class="name"
+          type="text"
+          placeholder="Name"
+          required
+          name="Name"
+        />
+      </p>
+      <p>
+        <label for="Email">Email:</label>
+        <input
+          class="email"
+          type="text"
+          placeholder="Email"
+          required
+          name="Email"
+        />
+      </p>
+      <p>
+        <label for="Subject">Subject:</label>
+        <input
+          class="subject"
+          type="text"
+          placeholder="Subject"
+          required
+          name="Subject"
+        />
+      </p>
+      <p>
+        <label for="Message">Message:</label>
+        <input
+          class="message"
+          type="text"
+          placeholder="Message"
+          required
+          name="Message"
+        />
+      </p>
+      <p>
+        <button class="submit" type="submit">
+          <i class="fa fa-paper-plane"></i> SEND MESSAGE
+        </button>
+      </p>
+    </form>
+  </body>
+</html>
